@@ -13,3 +13,9 @@ body {
   line-height: 1.5;
   font-size: $font-size-base;
 }
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
