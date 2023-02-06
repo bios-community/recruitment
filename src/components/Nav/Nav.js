@@ -6,7 +6,7 @@ import discordIcon from "../../assets/discord_icon.svg"
 
 function Nav () {
     return (
-        <nav className="nav container">
+        <nav className="nav">
             <div className="logo">
                 <img src={logoMark} alt="BIOS Community Logo" className="logo__mark" />
                 <span className="logo__type">BIO-S Community</span>
