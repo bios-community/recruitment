@@ -4,7 +4,7 @@ import headerBanner from "../../assets/header_banner.png";
 
 function Header() {
   return (
-    <header className="header">
+    <header className="header" id="header">
       <img
         src={headerBanner}
         alt="BIO-S Team Recruitment"
