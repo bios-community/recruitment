@@ -1,0 +1,11 @@
+@use '../../scss/variables' as *;
+
+.title_h2 {
+    font-family: $font-family-title;
+    font-size: $font-size-h2;
+    display: flex;
+    align-items: center;
+    gap: .5rem;
+
+    margin-top: 3rem;
+}
