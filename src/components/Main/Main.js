@@ -2,9 +2,11 @@ import "./main.scss";
 // import Section from '../../components/Section/Section'
 import TitleH2 from "../../components/TitleH2/TitleH2";
 import Paragraph from "../../components/Paragraph/Paragraph";
+import UnorderedList from "../UnorderedList/UnorderedList";
+import Note from '../Note/Note'
 import arrowIcon from "../../assets/arrow_icon.png";
 import addIcon from '../../assets/add_icon.png'
-import UnorderedList from "../UnorderedList/UnorderedList";
+import fileIcon from '../../assets/file_icon.png'
 
 let listItems = [
   "Monthly mentorship from Tech Industry leaders.",
@@ -42,6 +44,22 @@ function Main() {
         />
         <UnorderedList 
           listItems={listItems}
+        />
+      </section>
+      <section className="section" id="requirements">
+        <TitleH2 
+          icon={fileIcon}
+          text="Requirements to apply"
+        />
+        <Paragraph 
+          text="1. Have passion for open-source and communities."
+        />
+        <Paragraph 
+          text="Yes! That’s it. The only thing you need to apply is to have that passion for open-source and communities. All other role based requirements are stated in next section."
+        />
+        <Note 
+          text="Due to some geographical restrictions, we are only recruiting folks living in Nashik. But don’t worry, you don’t have to be a team member to help community, you can do it even by yourself, and if we see you helping the community actively, we’ll definitely consider you to be a team member in the future."
+          type="warning"
         />
       </section>
     </main>

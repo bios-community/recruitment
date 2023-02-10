@@ -1,0 +1,39 @@
+@use "../../scss/variables" as *;
+
+.note {
+    margin-top: 1.5rem;
+    padding: 1rem 1.5rem 1rem 2rem;
+    border-radius: .5rem;
+    position: relative;
+    z-index: 1;
+
+    &::before {
+        height: calc(100% - 2rem);
+        left: 0;
+        width: .5rem;
+        border-radius: 0 .5rem .5rem 0;
+        content: "";
+        position: absolute;
+        z-index: 1000;
+    }
+
+    &--warning {
+        background-color: #FEE2E2;
+
+        &::before {
+            background-color: #EF4444;
+        }
+    }
+
+    &--success {
+        background-color: #D1FAE5;
+
+        &::before {
+            background-color: #10B981;
+        }
+    }
+
+    &__bold {
+        font-weight: 500;
+    }
+}
