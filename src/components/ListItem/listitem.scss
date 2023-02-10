@@ -1,0 +1,14 @@
+@use '../../scss/variables' as *;
+
+.li {
+    margin-top: 1rem;
+
+    &::marker {
+        content: '✅';
+    }
+
+    span {
+        position: relative;
+        left: 16px;
+    }
+}
