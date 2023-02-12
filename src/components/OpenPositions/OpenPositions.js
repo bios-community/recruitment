@@ -9,6 +9,7 @@ import communityManagersIcon from '../../assets/community_managers_icon.png'
 import TitleH2 from '../TitleH2/TitleH2'
 import Paragraph from '../Paragraph/Paragraph'
 import OpenRole from '../OpenRole/OpenRole'
+import Note from '../Note/Note'
 
 function OpenPositions () {
 
@@ -57,6 +58,10 @@ function OpenPositions () {
                 text="We are currently looking for members for the following teams."
             />
             <div className="open_role">{openPositionsElements}</div>
+            <Note 
+                type="success"
+                text="You can apply for more than one role."
+            />
         </section>
     )
 }
