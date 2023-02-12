@@ -4,6 +4,7 @@ import StartHere from "../StartHere/StartHere";
 import WhyJoinUs from "../WhyJoinUs/WhyJoinUs";
 import Requirements from "../Requirements/Requirements";
 import OpenPositions from '../OpenPositions/OpenPositions'
+import ApplicationForm from '../ApplicationForm/ApplicationForm'
 
 function Main() {
   return (
@@ -12,6 +13,7 @@ function Main() {
       <WhyJoinUs />
       <Requirements />
       <OpenPositions />
+      <ApplicationForm />
     </main>
   );
 }
