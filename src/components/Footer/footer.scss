@@ -1,0 +1,61 @@
+@use "../../scss/variables" as *;
+
+.footer {
+    margin-top: 4rem;
+    border-top: 1px solid rgba(0, 0, 0, 0.75);
+    padding-top: 3rem;
+
+    &__main {
+        display: flex;
+        justify-content: space-between;
+        align-items: start;
+
+        &__logo {
+            display: flex;
+            align-items: center;
+            gap:.75rem;
+
+            .logo-type {
+                font-weight: $font-medium;
+            }
+
+        }
+
+        &__links {
+            display: flex;
+            gap: 5em;
+
+            &__column {
+
+                &--title {
+                    font-family: $font-family-title;
+                    font-weight: $font-medium;
+                    margin-bottom: .75rem;  
+                }
+
+                &--list {
+                    list-style: none;
+
+                    &__link {
+                        margin-bottom: .25rem;
+
+                        a {
+                            color: #353535;
+                            text-decoration: none;
+
+                            &:hover {
+                                text-decoration: underline;
+                            }
+                        }
+                    }
+                    
+                }
+            }
+        }
+    }
+
+    &__bottom {
+        width: fit-content;
+        margin: 4rem auto;
+    }
+}

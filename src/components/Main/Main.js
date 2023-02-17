@@ -5,6 +5,7 @@ import WhyJoinUs from "../WhyJoinUs/WhyJoinUs";
 import Requirements from "../Requirements/Requirements";
 import OpenPositions from '../OpenPositions/OpenPositions'
 import ApplicationForm from '../ApplicationForm/ApplicationForm'
+import Footer from '../Footer/Footer'
 
 function Main() {
   return (
@@ -14,6 +15,7 @@ function Main() {
       <Requirements />
       <OpenPositions />
       <ApplicationForm />
+      <Footer />
     </main>
   );
 }
