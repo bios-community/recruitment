@@ -2,7 +2,6 @@ import './openrole.scss'
 import TitleH3 from '../TitleH3/TitleH3'
 
 function OpenRole (props) {
-    console.log(props);
     return (
         <div className="open-role">
             <TitleH3 
