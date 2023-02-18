@@ -1,6 +1,6 @@
 import "./header.scss";
 import medalIcon from "../../assets/medal_icon.png";
-import headerBanner from "../../assets/header_banner.png";
+import headerBanner from "../../assets/header_banner.webp";
 
 function Header() {
   return (
