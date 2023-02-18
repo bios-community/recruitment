@@ -46,7 +46,7 @@ function OpenPositions () {
         }
     ]
 
-    let openPositionsElements = openPositions.map(item => <OpenRole {...item} />)
+    let openPositionsElements = openPositions.map((item, index) => <OpenRole key={index.toString()} {...item} />)
 
     return (
         <section className="open-positions">
