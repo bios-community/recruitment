@@ -28,7 +28,7 @@ function Footer () {
                     </div>
                 </div>
             </div>
-            <div className="footer__bottom">This website is 100% open-source. <a target="_blank" href="https://github.com/bios-community/team">See on GitHub</a>.</div>
+            <div className="footer__bottom">This website is 100% open-source. <a rel="noreferrer" target="_blank" href="https://github.com/bios-community/team">See on GitHub</a>.</div>
         </footer>
     )
 }
