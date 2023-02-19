@@ -49,7 +49,7 @@ function OpenPositions () {
     let openPositionsElements = openPositions.map((item, index) => <OpenRole key={index.toString()} {...item} />)
 
     return (
-        <section className="open-positions">
+        <section className="open-positions" id='open-positions'>
             <TitleH2 
                 text="Open Positions"
                 icon={opnePositionsIcon}

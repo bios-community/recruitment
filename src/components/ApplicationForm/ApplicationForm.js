@@ -5,7 +5,7 @@ import { Widget } from '@typeform/embed-react'
 
 function ApplicationForm () {
     return (
-        <section className="application-form">
+        <section className="application-form" id='application-form'>
             <TitleH2
                 text="Application Form"
                 icon={applicationFormIcon}
