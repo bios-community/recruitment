@@ -19,7 +19,7 @@ function Footer () {
                         </ul>
                     </div>
                     <div className="footer__main__links__column">
-                        <p className="footer__main__links__column--title">Contact</p>
+                        <p className="footer__main__links__column--title">Contact Us</p>
                         <ul className="footer__main__links__column--list">
                             <li className="footer__main__links__column--list__link"><a href="bachelorsinopensource@gmail.com">Email</a></li>
                             <li className="footer__main__links__column--list__link"><a href="dubeyadarshmain@gmail.com">Adarsh</a></li>
